@@ -26,6 +26,12 @@
 
 }
 
+.header{
+    background-image: url('../Images/developer.png'), url('../Images/header_bg.png') ;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 /* Nav styles*/
 nav{
     display: flex;
@@ -57,4 +63,27 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+/*banner styles*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 200px ;
+}
+.banner-greetings{
+    font-size: 25px;
+    font-weight: 60px;
+}
+
+.banner-title{
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+.banner-pro-pic{
+    width: 580px;
+}
+.banner-content{
+    max-width: 580px;
 }
