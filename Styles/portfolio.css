@@ -42,6 +42,11 @@
 
 }
 
+.text-center{
+    text-align: center;
+
+}
+
 .header{
     background-image: url('../Images/developer.png'), url('../Images/header_bg.png') ;
     background-repeat: no-repeat;
@@ -123,6 +128,25 @@ main{
     justify-content: space-around;
 }
 
+main section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .item-description{
     font-weight: bold;
+}
+
+/*skils-container*/
+.skils-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 5px 5px 0px #524f4f88;
+}
+.skils-description{
+    padding: 10px;
+    margin: 10px;
 }
