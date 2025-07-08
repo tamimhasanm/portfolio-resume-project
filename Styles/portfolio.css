@@ -8,7 +8,11 @@
 
 /*shared style*/
 .text-primary{
-    color: rgba(236, 110, 20, 0.685);
+    color: #FD6E0A;
+}
+
+.dark-2{
+    color: #474747;
 }
 
 /* Nav styles*/
@@ -16,6 +20,26 @@ nav{
     display: flex;
 }
 
+
+
+
 .nav-title{
     font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
 }
