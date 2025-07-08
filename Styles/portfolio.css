@@ -122,3 +122,7 @@ main{
     display: flex;
     justify-content: space-around;
 }
+
+.item-description{
+    font-weight: bold;
+}
