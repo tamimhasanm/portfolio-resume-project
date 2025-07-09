@@ -29,12 +29,12 @@
     border-radius: 10px;
 }
 .btn-pr1{
-    background-color: #f77002d7;
+    background-color: #ffab03d7;
     font-size: 20px;
     font-weight: bold;
-    color: azure;
+    color: rgb(59, 61, 61);
     padding: 15px 30px ;
-    border: none;
+    border: 100px;
     border-radius: 10px;
 }
 
@@ -167,6 +167,7 @@ main section{
     gap: 50px;
     margin: 50px;
     padding: 60px;
+    justify-content: space-between;
 }
 
 
@@ -183,5 +184,6 @@ main section{
 }
 
 .resume hr{
+    inline-size: none;
     margin: 30px 3px;
 }
